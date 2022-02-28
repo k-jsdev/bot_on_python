@@ -127,9 +127,6 @@ def bot_message(message):
              connect = sqlite3.connect('dz.db')
              cursor = connect.cursor() 
              cursor.execute("""SELECT * FROM dz_id """)
-             
-             photos =cursor.fetchall()
-             for photo in photos:
-                bot.send_photo(chat_id=message.from_user.id, photo=photo[0])
+
 
 bot.polling(none_stop=True)

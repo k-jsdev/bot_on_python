@@ -11,7 +11,7 @@ from cgitb import text
 from tokenize import Token
 from telebot import types
 #токен
-TOKEN = '5118130297:AAFvovt4_XUclg05ZWJ_V5EU1LNgCrT7AUQ'
+TOKEN = 'Ваш токен'
 URL = 'https://api.telegram.org/bot'
 bot = telebot.TeleBot(TOKEN)
 #сохранение фото в БД 
